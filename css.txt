@@ -1,0 +1,101 @@
+CSS
+-----
+Cascading Style Sheets is used to describe the look and formatting of a document written in markup Language. 
+
+Why CSS?
+-------------
+1. Reusability
+2. Saves a lot of time
+3. Provide more attributes
+
+CSS syntax:
+---------------
+A CSS rule set contains a "selector" and a "declaration block".
+
+syntax:-
+
+selector
+{
+	propertyname:value,
+	propertyname:value,
+	....
+}
+
+h1	->	selector
+	Selector indicates the HTML element you want to style. It could be any tag like <h1>,<title> etc.
+
+propertyname:value		->	declaration block
+	The declaration block can contain one or more declarations separated by a semicolon. 
+		
+	A property is a type of attribute of HTML element. It could be color, border etc.
+	value: values are assigned to CSS properties. 
+
+CSS Selector:-
+-----------------
+CSS Selectors are used to select the content you want to style. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id,class,type,attribute etc.
+
+5 types
+1. Element Selector
+	The element selector selects the HTML element by name.
+
+2. Id Selector
+	selects the id attribute of an HTML element to select a specific element. id is always unique within the page. To choose a single unique element.
+
+It is written with the hash character (#), followed by the id of the element.
+
+3. Class Selector
+	selects HTML elements with a specific class attribute. It is used with a period character (.) followed by the classname. classnames shouldnot start with a number. 	
+
+4. Universal Selector
+	used as a wildcard character (*). It selects all the elements on the pages.
+
+5. Group Selector
+	It is used to select all the elemnts with the same style definitions. Commas are used to separate each selector in grouping. To minimize the code.
+
+Color Codes:-
+----------------
+white	-	#ffffff
+red	-	#ff0000
+green	-	#00ff00
+blue	-	#0000ff
+yellow	-	#ffff00
+cyan	-	#00ffff
+meganta	-	#ff00ff
+black	-	#000000
+
+
+types of CSS:-
+----------------
+1. Inline CSS	
+	used to apply CSS on a single line or element.
+	syntax:-
+		<tagname style="attribute1:value1">.....</tagname>
+
+Disadvantages:
+		These Styles cannot be reused anywhere else.
+		These styles are tough to be edited because they are not stored at single place.				not possible to style pseudo-codes and pseudo-classes with inline css.
+			
+2. Internal CSS
+	used to add a unique style for a single document. It is defined in <head> section of the HTML page inside the <style> tag.
+	<head>
+		<style>
+			tagname1
+			{
+				....
+				....
+				....
+			}
+			tagname2
+			{
+				....
+				....
+				....
+			}
+		</style>
+	</head>
+	
+
+3. External CSS
+
+CSS Attributes list
+http://blooberry.com/indexdot/css/properties/border/btop.htm
