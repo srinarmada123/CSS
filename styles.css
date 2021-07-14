@@ -1,0 +1,12 @@
+			body
+			{
+				background-color:#ffff00;
+			}
+			h1
+			{
+				border: medium dashed #ff0000;
+			}
+			p
+			{
+				  border-top: 10px outset #00ffff;
+			}

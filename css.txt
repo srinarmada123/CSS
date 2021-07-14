@@ -96,6 +96,23 @@ Disadvantages:
 	
 
 3. External CSS
+	We write css in separate file and save with .css extension.
+	styles.css
+			tagname
+			{
+				attribute:value;
+			}
+		
+	.html
+	-------
+		<head>
+			<link href="styles.css" rel="stylesheet"/> 		
+		</head>
+
 
 CSS Attributes list
 http://blooberry.com/indexdot/css/properties/border/btop.htm
+
+
+
+
