@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>HTML, CSS z-index,position styles example</title>
+		<style>		
+			div
+			{
+				width:80px;
+				height:80px;
+				/*position:relative;			*/
+				position:absolute;
+			}
+			.infront
+			{
+				background-color:coral;
+				top:10px;
+				left:80px;
+				z-index:1;
+			}
+			.behind
+			{		
+				background-color:gold;
+				top:-50px;
+				left:35px;
+				z-index:2;			
+			}
+		</style>
+	</head>
+	<body>
+		<div class="infront"></div>
+		<div class="behind"></div>
+	</body>
+</html>
