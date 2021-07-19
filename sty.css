@@ -1,0 +1,38 @@
+		body
+		{
+		//	background-color:#000000;
+		}
+		p
+		{
+			background-color: #ff0000;
+			margin:120px;
+		}
+		b
+		{
+			background-color:#ff00ff;
+			padding:100px;
+		}
+		a:link
+		{
+			color:red;
+		}
+		a:hover
+		{
+			color:green;
+		}
+		a:visited
+		{
+			color:orange;
+		}
+		a:active
+		{
+			font-style:bold;
+			color:#ffffff;
+		}
+		
+		ol
+		{
+		//	list-style-type:none;
+			list-style-image:url("R.png");
+			list-style-position:inside;
+		}
