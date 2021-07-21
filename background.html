@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Radial Gradient Example</title>
+		<style>
+		div
+		{
+		height:200px;
+		width:200px;
+		}
+		#d1
+		{
+			background-image:radial-gradient(red,green,blue);
+		}
+		#d2
+		{
+			background-image: radial-gradient(red 5%,yellow 15%,green 60%);
+		}
+		#d3
+		{
+			background-image: radial-gradient(circle,red,yellow,green);
+		}
+		#d4{
+		background-image:radial-gradient(closest-side at 60% 55%, red, yellow, black);
+		}
+		#d5{
+		background-image:radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+		}
+		#d6{
+		background-image:repeating-radial-gradient( red, yellow 10%, green 15%);
+		}
+	
+		</style>
+	</head>	
+	<body>
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<div id="d3"></div>
+		<div id="d4"></div>
+		<div id="d5"></div>
+		<div id="d6"></div>
+	</body>
+</html>
